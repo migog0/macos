@@ -1,0 +1,158 @@
+{
+  "video": {
+    "sites": [
+      {
+        "key": "kunyu77",
+        "name": "🟢|七七",
+        "type": 3,
+        "api": "assets://js/kunyu77_open.js"
+      },
+      {
+        "key": "ikanbot",
+        "name": "🟢|爱看",
+        "type": 3,
+        "api": "assets://js/ikanbot_open.js"
+      },
+      {
+        "key": "kkys",
+        "name": "🟢|快看",
+        "type": 3,
+        "api": "assets://js/kkys_open.js"
+      },
+      {
+        "key": "ngsp",
+        "name": "🟢|南瓜",
+        "type": 3,
+        "api": "assets://js/ng_open.js"
+      },
+        {
+        "key": "mybl",
+        "name": "🟢|哔哩",
+        "type": 3,
+        "api": "assets://js/mybili_open.js"
+      },
+       {
+        "key": "wogg",
+        "name": "🔵|玩偶",
+        "type": 3,
+        "api": "assets://js/wogg.js",
+        "ext": "b48fb63974654a87bb942d863152d1d3"
+      },
+       {
+          "key": "subaibai",
+          "name": "🟢|素白",
+          "type": 3,
+          "api": "assets://js/subaibai_open.js"
+      },
+       {
+        "key": "czzy",
+        "name": "🟢|厂长",
+        "type": 3,
+        "api": "assets://js/czzy_open.js"
+      },
+       { 
+        "key": "nivod", 
+        "name": "🟡|泥巴|🛫", 
+        "type": 3, 
+        "api": "assets://js/nivod_op.js",
+        "ext":"做爱" 
+       },
+      {
+        "key": "duboku",
+        "name": "🟢|独播|🛫",
+        "type": 3,
+        "api": "assets://js/duboku_open.js"
+      },
+      {
+        "key": "duboku2",
+        "name": "🟠|独播",
+        "type": 3,
+        "api": "assets://js/duboku2_open.js"
+      },
+      {
+        "key": "18av",
+        "name": "🟡|仙女",
+        "type": 3,
+        "api": "assets://js/18av_open.js"
+      },
+      {
+        "key": "230ts",
+        "name": "🟠|听书",
+        "type": 3,
+        "api": "assets://js/230ts_open.js"
+      },
+      {
+        "key": "xiaoya-tv",
+        "name": "🔵|小雅",
+        "type": 3,
+        "api": "assets://js/xiaoya.js",
+        "ext": "前往群组@omiitop查看文档教程，部署alist-tvbox后,复制后台vod点播模式API"
+      },
+       {
+        "key": "🔵|bilibili",
+        "name": "BiliBili",
+        "type": 3,
+        "api": "assets://js/bilibili.js",
+        "ext": "前往群组@omiitop查看文档教程，部署alist-tvbox后,IP+端口/bilibili"
+      }
+    ]
+  },
+  "pan": {
+    "sites": [
+      {
+        "key": "alist",
+        "name": "Alist",
+        "type": 40,
+        "api": "assets://js/alist_open.js",
+        "ext": [
+          {
+            "name": "🙋丫仙女",
+            "server": "http://alist.xiaoya.pro/",
+            "startPage": "/",
+            "showAll": false,
+            "search": true,
+            "headers": {
+              "Authorization": ""
+            },
+            "params": {
+              "/abc": {
+                "password": "123"
+              },
+              "/abc/abc": {
+                "password": "123"
+              }
+            }
+          },
+          {
+            "name": "🟡罗汉果",
+            "server": "https://lala-ofbip.run.goorm.site/"
+          },
+          {
+            "name": "七米蓝",
+            "server": "https://al.chirmyram.com"
+          },
+          {
+            "name": "神族九帝",
+            "server": "https://alist.shenzjd.com"
+          },
+          {
+            "name": "姬路白雪",
+            "server": "https://pan.jlbx.xyz"
+          },
+          {
+            "name": "星梦",
+            "server": "https://pan.bashroot.top"
+          },
+          {
+            "name": "repl",
+            "server": "https://ali.liucn.repl.co"
+          },
+          {
+            "name": "讯维云盘",
+            "server": "https://pan.xwbeta.com"
+          }
+        ]
+      }
+    ]
+  }
+}
